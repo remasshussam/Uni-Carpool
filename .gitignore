@@ -17,6 +17,19 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.apk
+*.aab
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+Thumbs.db
+
+# Local machine configuration
+.idea/
 
 # Metro
 .metro-health-check*
@@ -31,6 +44,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
